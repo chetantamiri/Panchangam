@@ -1,0 +1,42 @@
+{
+  "expo": {
+    "name": "panchangam-app",
+    "slug": "panchangam-app",
+    "version": "1.0.0",
+    "sdkVersion": "57.0.0",
+    "orientation": "portrait",
+    "updates": {
+      "enabled": false
+    },
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "image": "./assets/icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#000000"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.madhu0586.panchangamapp"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#E6F4FE",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      },
+      "predictiveBackGestureEnabled": false,
+      "package": "com.madhu0586.panchangamapp"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png",
+      "bundler": "metro"
+    },
+    "plugins": [
+      "expo-font",
+      "expo-secure-store",
+      "expo-location"
+    ]
+  }
+}

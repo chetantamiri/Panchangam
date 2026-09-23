@@ -1,0 +1,47 @@
+{
+  "name": "panchangam-app",
+  "version": "1.0.0",
+  "main": "index.ts",
+  "dependencies": {
+    "@expo-google-fonts/dm-sans": "^0.4.2",
+    "@expo-google-fonts/plus-jakarta-sans": "^0.4.2",
+    "@react-native-async-storage/async-storage": "2.2.0",
+    "@react-navigation/bottom-tabs": "^7.2.0",
+    "@react-navigation/native": "^7.0.14",
+    "@react-navigation/native-stack": "^7.2.0",
+    "babel-preset-expo": "~57.0.0",
+    "expo": "~57.0.0",
+    "expo-blur": "~57.0.3",
+    "expo-font": "~57.0.4",
+    "expo-linear-gradient": "~57.0.2",
+    "expo-location": "~57.0.19",
+    "expo-secure-store": "~57.0.4",
+    "expo-status-bar": "~57.0.1",
+    "firebase": "^10.14.1",
+    "fs-extra": "^11.4.0",
+    "lucide-react-native": "^0.468.0",
+    "react": "^19.2.3",
+    "react-dom": "^19.2.3",
+    "react-native": "^0.86.3",
+    "react-native-gesture-handler": "~2.32.0",
+    "react-native-reanimated": "^4.5.1",
+    "react-native-safe-area-context": "~5.7.0",
+    "react-native-screens": "~4.26.0",
+    "react-native-svg": "^15.15.4",
+    "react-native-web": "^0.21.2",
+    "react-native-worklets": "^0.10.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.25.0",
+    "@types/react": "~19.1.10",
+    "typescript": "^5.3.3"
+  },
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web",
+    "upload-secrets": "node upload-secrets.js"
+  },
+  "private": true
+}
